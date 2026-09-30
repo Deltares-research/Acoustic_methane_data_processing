@@ -1,0 +1,41 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and outputs (large/generated)
+data/raw/**
+data/interim/**
+data/processed/**
+outputs/figures/**
+outputs/tables/**
+outputs/reports/**
+
+# Keep folder structure and sample data
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/sample/**
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/reports/.gitkeep

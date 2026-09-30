@@ -1,0 +1,3 @@
+# Optional lock file placeholder.
+# Generate pinned dependencies when needed, for example:
+# pip freeze > requirements/lock.txt

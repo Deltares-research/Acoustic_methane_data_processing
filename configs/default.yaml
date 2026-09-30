@@ -1,0 +1,9 @@
+project:
+  name: acoustic-methane
+paths:
+  raw_data: data/raw
+  interim_data: data/interim
+  processed_data: data/processed
+  outputs: outputs
+detection:
+  threshold: 0.8
