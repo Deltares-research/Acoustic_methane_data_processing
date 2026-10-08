@@ -1,0 +1,9 @@
+{
+  "units": "Hz",
+  "long_name": "Transducer frequency",
+  "valid_min": 0.0,
+  "standard_name": "sound_frequency",
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

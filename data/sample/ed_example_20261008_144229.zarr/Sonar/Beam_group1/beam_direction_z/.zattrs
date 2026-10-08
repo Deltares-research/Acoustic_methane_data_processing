@@ -1,0 +1,11 @@
+{
+  "long_name": "z-component of the vector that gives the pointing direction of the beam, in sonar beam coordinate system",
+  "units": "1",
+  "valid_range": [
+    -1.0,
+    1.0
+  ],
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

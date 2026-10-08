@@ -1,0 +1,17 @@
+{
+  "long_name": "Type of transmitted pulse",
+  "flag_values": [
+    "CW",
+    "LFM",
+    "FMD"
+  ],
+  "flag_meanings": [
+    "Continuous Wave \u2013 a pulse nominally of one frequency",
+    "Linear Frequency Modulation \u2013 a pulse which varies from transmit_frequency_start to transmit_frequency_stop in a linear manner over the nominal pulse duration (transmit_duration_nominal)",
+    "Frequency Modulated 'D' - An EK80-specific FM type that is not clearly described"
+  ],
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "ping_time"
+  ]
+}

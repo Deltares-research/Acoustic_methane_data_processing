@@ -1,0 +1,9 @@
+{
+  "long_name": "Platform roll",
+  "standard_name": "platform_roll_angle",
+  "units": "arc_degree",
+  "valid_range": "(-90.0, 90.0)",
+  "_ARRAY_DIMENSIONS": [
+    "time2"
+  ]
+}

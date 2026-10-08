@@ -1,0 +1,6 @@
+{
+  "long_name": "Index for data and metadata source filenames",
+  "_ARRAY_DIMENSIONS": [
+    "filenames"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "long_name": "Nominal transmit power",
+  "units": "W",
+  "valid_min": 0.0,
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "ping_time"
+  ]
+}

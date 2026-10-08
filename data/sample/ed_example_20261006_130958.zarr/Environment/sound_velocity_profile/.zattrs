@@ -1,0 +1,11 @@
+{
+  "long_name": "sound velocity profile",
+  "standard_name": "speed_of_sound_in_sea_water",
+  "units": "m/s",
+  "valid_min": 0.0,
+  "comment": "parsed from raw data files as (depth, sound_speed) value pairs",
+  "_ARRAY_DIMENSIONS": [
+    "time1",
+    "sound_velocity_profile_depth"
+  ]
+}

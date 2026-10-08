@@ -1,0 +1,10 @@
+{
+  "long_name": "Real part of the transmit pulse",
+  "units": "V",
+  "comment": "Only exist for Simrad EK80 file with RAW4 datagrams",
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "ping_time",
+    "transmit_sample"
+  ]
+}

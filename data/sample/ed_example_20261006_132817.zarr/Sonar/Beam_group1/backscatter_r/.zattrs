@@ -1,0 +1,9 @@
+{
+  "long_name": "Raw backscatter measurements (real part)",
+  "units": "dB",
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "ping_time",
+    "range_sample"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "long_name": "Vendor channel ID",
+  "_ARRAY_DIMENSIONS": [
+    "channel_all"
+  ]
+}

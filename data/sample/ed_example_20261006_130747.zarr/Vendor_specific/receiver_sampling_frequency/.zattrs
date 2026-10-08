@@ -1,0 +1,7 @@
+{
+  "units": "Hz",
+  "long_name": "Receiver sampling frequency",
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

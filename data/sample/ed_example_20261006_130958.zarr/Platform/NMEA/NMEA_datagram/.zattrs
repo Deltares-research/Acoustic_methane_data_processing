@@ -1,0 +1,6 @@
+{
+  "long_name": "NMEA datagram",
+  "_ARRAY_DIMENSIONS": [
+    "nmea_time"
+  ]
+}

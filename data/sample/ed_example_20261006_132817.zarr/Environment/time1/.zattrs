@@ -1,0 +1,11 @@
+{
+  "axis": "T",
+  "long_name": "Timestamps for NMEA position datagrams",
+  "standard_name": "time",
+  "comment": "Time coordinate corresponding to environmental variables. Note that Platform.time3 is the same as Environment.time1.",
+  "units": "nanoseconds since 1970-01-01T00:00:00+00:00",
+  "calendar": "gregorian",
+  "_ARRAY_DIMENSIONS": [
+    "time1"
+  ]
+}

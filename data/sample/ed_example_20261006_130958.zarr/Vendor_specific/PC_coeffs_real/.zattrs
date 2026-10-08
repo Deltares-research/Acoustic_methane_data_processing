@@ -1,0 +1,8 @@
+{
+  "long_name": "Pulse compression filter coefficients (real part)",
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "filter_time",
+    "PC_filter_n"
+  ]
+}

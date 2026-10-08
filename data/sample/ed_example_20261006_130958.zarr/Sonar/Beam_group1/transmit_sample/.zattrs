@@ -1,0 +1,7 @@
+{
+  "long_name": "Transmit pulse sample number, base 0",
+  "comment": "Only exist for Simrad EK80 file with RAW4 datagrams",
+  "_ARRAY_DIMENSIONS": [
+    "transmit_sample"
+  ]
+}

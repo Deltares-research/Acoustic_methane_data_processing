@@ -1,0 +1,7 @@
+{
+  "long_name": "Pulse compression decimation factor",
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "filter_time"
+  ]
+}

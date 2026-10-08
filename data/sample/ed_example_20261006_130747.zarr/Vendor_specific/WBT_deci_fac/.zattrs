@@ -1,0 +1,7 @@
+{
+  "long_name": "Wideband transceiver decimation factor",
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "filter_time"
+  ]
+}

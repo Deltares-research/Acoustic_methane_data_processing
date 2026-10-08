@@ -1,0 +1,12 @@
+{
+  "conventions": "CF-1.7, SONAR-netCDF4-1.0, ACDD-1.3",
+  "keywords": "EK80",
+  "sonar_convention_authority": "ICES",
+  "sonar_convention_name": "SONAR-netCDF4",
+  "sonar_convention_version": "1.0",
+  "summary": "",
+  "title": "",
+  "date_created": "2023-08-11T16:57:27Z",
+  "processing_level": "Level 1A",
+  "processing_level_url": "https://echopype.readthedocs.io/en/stable/processing-levels.html"
+}

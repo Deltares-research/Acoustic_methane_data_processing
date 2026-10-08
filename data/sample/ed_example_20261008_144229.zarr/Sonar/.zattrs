@@ -1,0 +1,8 @@
+{
+  "sonar_manufacturer": "Simrad",
+  "sonar_model": "EK80",
+  "sonar_serial_number": "",
+  "sonar_software_name": "EK80",
+  "sonar_software_version": "21.15.2.0",
+  "sonar_type": "echosounder"
+}

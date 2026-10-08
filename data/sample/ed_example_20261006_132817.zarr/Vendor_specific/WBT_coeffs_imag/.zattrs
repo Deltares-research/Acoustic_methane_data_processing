@@ -1,0 +1,8 @@
+{
+  "long_name": "Wideband transceiver filter coefficients (imaginary part)",
+  "_ARRAY_DIMENSIONS": [
+    "channel",
+    "filter_time",
+    "WBT_filter_n"
+  ]
+}

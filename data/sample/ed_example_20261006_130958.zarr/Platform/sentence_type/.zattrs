@@ -1,0 +1,6 @@
+{
+  "long_name": "NMEA sentence type",
+  "_ARRAY_DIMENSIONS": [
+    "time1"
+  ]
+}

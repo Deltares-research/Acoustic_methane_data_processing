@@ -1,0 +1,6 @@
+{
+  "long_name": "Transceiver type",
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

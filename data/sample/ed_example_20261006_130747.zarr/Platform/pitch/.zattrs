@@ -1,0 +1,9 @@
+{
+  "long_name": "Platform pitch",
+  "standard_name": "platform_pitch_angle",
+  "units": "arc_degree",
+  "valid_range": "(-90.0, 90.0)",
+  "_ARRAY_DIMENSIONS": [
+    "time2"
+  ]
+}

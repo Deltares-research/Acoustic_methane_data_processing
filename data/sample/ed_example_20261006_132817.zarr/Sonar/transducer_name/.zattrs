@@ -1,0 +1,6 @@
+{
+  "long_name": "Transducer name",
+  "_ARRAY_DIMENSIONS": [
+    "channel_all"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "long_name": "y-axis distance from the platform coordinate system origin to the sonar transducer",
+  "units": "m",
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

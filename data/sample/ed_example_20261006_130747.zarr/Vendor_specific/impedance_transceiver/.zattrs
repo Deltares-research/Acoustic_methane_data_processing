@@ -1,0 +1,7 @@
+{
+  "units": "ohm",
+  "long_name": "Transceiver impedance",
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "long_name": "Platform latitude",
+  "standard_name": "latitude",
+  "units": "degrees_north",
+  "valid_range": "(-90.0, 90.0)",
+  "comment": "Derived from the Simrad MRU1 Datagrams which are a wrapper of the Kongsberg Maritime Binary Datagrams.",
+  "_ARRAY_DIMENSIONS": [
+    "time3"
+  ]
+}

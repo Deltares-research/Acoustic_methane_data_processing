@@ -1,0 +1,9 @@
+{
+  "long_name": "Stop frequency in transmitted pulse",
+  "units": "Hz",
+  "standard_name": "sound_frequency",
+  "valid_min": 0.0,
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

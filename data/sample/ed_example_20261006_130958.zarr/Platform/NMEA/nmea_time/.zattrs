@@ -1,0 +1,11 @@
+{
+  "axis": "T",
+  "long_name": "Timestamps for NMEA datagrams",
+  "standard_name": "time",
+  "comment": "Time coordinate corresponding to NMEA sensor data.",
+  "units": "nanoseconds since 1970-01-01T00:00:00+00:00",
+  "calendar": "gregorian",
+  "_ARRAY_DIMENSIONS": [
+    "nmea_time"
+  ]
+}

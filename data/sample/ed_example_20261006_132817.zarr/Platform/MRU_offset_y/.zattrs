@@ -1,0 +1,5 @@
+{
+  "long_name": "Distance along the y-axis from the platform coordinate system origin to the motion reference unit sensor origin",
+  "units": "m",
+  "_ARRAY_DIMENSIONS": []
+}

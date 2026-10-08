@@ -1,0 +1,6 @@
+{
+  "long_name": "type of transducer (0-single, 1-split)",
+  "_ARRAY_DIMENSIONS": [
+    "channel"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "long_name": "Beam group name",
+  "_ARRAY_DIMENSIONS": [
+    "beam_group"
+  ]
+}
