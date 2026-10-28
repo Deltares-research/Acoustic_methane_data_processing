@@ -1,0 +1,39 @@
+RUN THE RAW SONAR PROCESSOR
+==========================
+
+To process every .raw file in the configured input folder, run this pipeline
+command from the repository folder:
+
+   python scripts/run_pipeline.py --config configs/default.yaml
+
+The default configuration reads from data\raw (including subfolders) and
+writes converted NetCDF files and Sv plots to data\processed. Edit
+configs\default.yaml to change these paths or processing settings.
+
+To process only the specific raw file below instead:
+
+1. Open PowerShell in the repository folder:
+   Acoustic_methane_data_processing
+
+2. Install the project and its dependencies (run once per Python environment):
+
+   python -m pip install -e .
+
+3. Run this command to process the specified raw file:
+
+   python -m acoustic_methane.read_raw_data `
+     "P:\11212489-008-acoustic-ch4-test\EK80\Data\261012_test_with_Kongsberg\261012_bubble_test_after_calibration-D20261012-T092230.raw" `
+     --output-dir "P:\11212489-008-acoustic-ch4-test\data_processing\converted_files"
+
+The output folder will contain the converted NetCDF file and the Sv plot.
+The files are named:
+
+   261012_bubble_test_after_calibration-D20261012-T092230.nc
+   261012_bubble_test_after_calibration-D20261012-T092230_Sv_plot.png
+
+Optional: to plot only one channel, add this argument to the command:
+
+     --channel "exact channel name"
+
+Run the commands in the same PowerShell window and Python environment where
+the project dependencies were installed.

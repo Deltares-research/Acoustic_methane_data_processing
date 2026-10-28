@@ -12,7 +12,14 @@ license = { text = "MIT" }
 authors = [
   { name = "Deltares" }
 ]
-dependencies = []
+dependencies = [
+  "echopype",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "PyYAML",
+  "scipy",
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

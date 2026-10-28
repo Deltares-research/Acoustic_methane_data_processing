@@ -12,9 +12,12 @@ def main() -> None:
 
     cfg = load_config(args.config)
     result = run_pipeline(cfg)
-    print("Pipeline result:", result)
+    print(f"Processed {result['files_processed']} raw file(s):")
+    for item in result["results"]:
+        print(f"  Raw file: {item['raw_file']}")
+        print(f"  NetCDF:   {item['converted_file']}")
+        print(f"  Sv plot:  {item['sv_plot']}")
 
 
 if __name__ == "__main__":
     main()
-
