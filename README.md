@@ -33,10 +33,23 @@ tests/                  Minimal automated checks
    python scripts/run_pipeline.py --config configs/default.yaml
    ```
 
+   To verify what will be processed without converting files:
+
+   ```bash
+   python scripts/run_pipeline.py --config configs/default.yaml --dry-run
+   ```
+
    Update `paths.raw_data` and `paths.processed_data` in the YAML file to use
-   different folders. The `raw_processing` section configures recursive
-   discovery and calibration/plot settings. Processing stops on the first file
-   that fails, and reports the error rather than silently skipping it.
+   different folders. The `raw_processing` section configures discovery and
+   calibration/plot settings. Processing stops on the first file that fails,
+   and reports the error rather than silently skipping it.
+
+   Discovery modes:
+   - `discovery_mode: standard` (default): discovers `.raw` files recursively
+     when `recursive: true` (or only the top-level folder when `recursive: false`).
+   - `discovery_mode: experiment_ek80`: for layouts like
+     `<raw_data>/<day-folder>/*_ek80/*.raw`; one `.raw` file is selected per
+     day folder using deterministic sorting.
 
 ## Processing a Raw Sonar File
 

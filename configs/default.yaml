@@ -1,15 +1,15 @@
 project:
   name: acoustic-methane
 paths:
-paths:
-  raw_data: 'P:\11212489-008-acoustic-ch4-test\EK80\Data\261012_test_with_Kongsberg'
-  processed_data: 'P:\11212489-008-acoustic-ch4-test\data_processing\converted_files'
+  raw_data: 'P:\11212489-008-acoustic-ch4-test\experiment_data\261021_wc_experiment_01'
+  processed_data: 'P:\11212489-008-acoustic-ch4-test\data_processing\converted_files_261021_wc_experiment_01'
 raw_processing:
+  discovery_mode: experiment_ek80
   recursive: true
   sonar_model: EK80
   waveform_mode: BB
   encode_mode: complex
-  plot_duration_minutes: 12
-  range_limits_m: [0.0, 10.0]
+  plot_duration_minutes: 1
+  range_limits_m: [2.2, 2.5]
 detection:
   threshold: 0.8

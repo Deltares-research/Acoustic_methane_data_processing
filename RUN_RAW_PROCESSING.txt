@@ -6,9 +6,20 @@ command from the repository folder:
 
    python scripts/run_pipeline.py --config configs/default.yaml
 
+To list discovered files without processing:
+
+   python scripts/run_pipeline.py --config configs/default.yaml --dry-run
+
 The default configuration reads from data\raw (including subfolders) and
 writes converted NetCDF files and Sv plots to data\processed. Edit
 configs\default.yaml to change these paths or processing settings.
+
+For experiment folders structured as:
+   <raw_data>\<day-folder>\*_ek80\*.raw
+set:
+   raw_processing:
+     discovery_mode: experiment_ek80
+in configs\default.yaml to process one `.raw` file per day-folder.
 
 To process only the specific raw file below instead:
 
